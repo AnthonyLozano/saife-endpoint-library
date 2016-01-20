@@ -434,7 +434,7 @@ try {
   e.printStackTrace();
 }
 ```
-The SAIFE application must be subscribed with the SAIFE network to receive messages. Subscription keeps a connection active with the SAIFE network so that it may deliver messages immediately to the SAIFE endpoint. Once subscribed, the application must call periodically check to see if any messages were received from the SAIFE network. It is up to the application to determine the best period. The application may unscubribe for messages which would close the connection with the SAIFE network. This is useful for applications that don't want to maintain a persistent connection with the SAIFE network.
+The SAIFE application must be subscribed with the SAIFE network to receive messages. Subscription keeps a connection active with the SAIFE network so that it may deliver messages immediately to the SAIFE endpoint. Once subscribed, the application must call periodically check to see if any messages were received from the SAIFE network. It is up to the application to determine the best period. The application may unsubcribe for messages which would close the connection with the SAIFE network. This is useful for applications that don't want to maintain a persistent connection with the SAIFE network.
 
 ## Enable presence
 ```c++
